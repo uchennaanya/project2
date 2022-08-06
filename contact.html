@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="/assets/js/js.js" defer></script>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/62b789e43d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="navHeader">
+      <img src="#" alt="logo" />
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html"><i class="fa fa-home"></i>Home</a>
+          </li>
+          <li>
+            <a href="about.html"> <i class="fas fa-user"></i> About</a>
+          </li>
+          <li class="service-wrapper">
+            <a href="#"><i class="fas fa-box"></i> Service</a>
+            <ul class="services">
+              <li><a href="service.html">Food</a></li>
+              <li><a href="#">Intertaiment</a></li>
+              <li><a href="#">Others</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#" class="active"> <i class="fas fa-phone"></i> Contact</a>
+          </li>
+        </ul>
+        <span>
+          <button id="login" onclick="loginn()">Login</button>
+          <button>SignUp</button>
+        </span>
+      </nav>
+    </header>
+    <hr />
+
+    <main
+      style="
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-around;
+      "
+    >
+      <h1 style="font-size: 5rem">Contact Us</h1>
+      <form action="#" style="display: inline; width: 50%">
+        <input type="text" placeholder="First name" />
+        <input type="text" placeholder="Last name" />
+        <input type="tel" placeholder="Phone" />
+        <input type="email" placeholder="Email" />
+        <textarea
+          name="msg"
+          id="msg"
+          cols="30"
+          rows="10"
+          placeholder="Write to us"
+        ></textarea>
+        <input type="submit" />
+      </form>
+    </main>
+    <div class="form_wrap hide" id="wrap">
+      <form>
+        <input type="text" placeholder="Names" />
+        <input type="email" placeholder="Email" />
+        <input type="submit" />
+      </form>
+    </div>
+    <footer>Uchenna Anya&nbsp;&copy;</footer>
+  </body>
+</html>
